@@ -1,0 +1,90 @@
+/*產品圖片*/
+.product-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 4px;
+}
+.product-col{
+    width: calc(100%/12*6);
+    padding: 0 4px;
+}
+.txet-primary-400{
+    color: var(--Primary-400);
+}
+.del-price{
+    ont-family: Noto Sans TC;
+    font-weight: 400;
+    font-size:14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: var(--Neutral-500);
+    padding-left: -8px;
+}
+.product-color{
+    width: 64px;
+    text-align: center;
+    color: var(--Neutral-600);
+}
+.size{
+    border: 1px solid var(--Neutral-300);
+}
+.btn .size.active
+.btn .size:hover{
+    border-color: var(--Neutral-900);
+}
+.text-danger{
+    color: var(--Functional-Danger-300);
+}
+.btn-light{
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border: 1px solid var(--Neutral-900);
+    background-color:white;
+    color:var(--Neutral-900);
+}
+.btn-drak{
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border: none;
+    background-color: var(--Neutral-900);
+    color:white;
+}
+.plus .bi{
+    padding-right: 8px;
+}
+.plus{
+    display: flex;
+    gap: 8px;
+}
+.plus .btn{
+    width: 50%;
+}
+h3{
+    font-family: Noto Sans TC;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color:var(--Neutral-900);
+}
+.product-text{
+    font-family: Noto Sans TC;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color:var(--Neutral-600);
+}
+.product-item{
+    border-bottom: 1px solid var(--Neutral-300);
+}
