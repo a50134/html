@@ -88,3 +88,10 @@ h3{
 .product-item{
     border-bottom: 1px solid var(--Neutral-300);
 }
+.ml-0{
+    margin-left: auto;
+}
+.person{
+   margin-left: auto;
+    
+}

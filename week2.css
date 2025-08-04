@@ -31,20 +31,10 @@ a {
 
 /* 通用樣式 */
 .container {
-  width: 1296px;
+  max-width: 1290px;
   margin: 0 auto;
- 
-}
-.container py-16{
-    display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-container py-32{
-    display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
+ }
+
 .row{
     display: flex;
     flex-direction: row;
@@ -62,8 +52,9 @@ container py-32{
 .py-8{
     padding: 8px 0;
 }
-.bi bi-person{
-    margin-left: 0 auto;
+.person{
+   margin-left: auto;
+    
 }
 /*顏色*/
 :root{
@@ -84,7 +75,7 @@ container py-32{
   justify-content: center;  
 }
 .align-center{
-    align-items: center;
+        align-items: center;
 }
 .col{
     padding-left: 12px;
@@ -209,7 +200,10 @@ container py-32{
     margin-bottom: 4px;
 }
 .mb-0{
-    margin-right: 0 auto;
+    margin-right: auto;
+}
+.ml-0{
+    margin-left: auto;
 }
 /*元件*/
 .slash+.slash::before{
