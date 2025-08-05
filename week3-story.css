@@ -2,7 +2,11 @@
 *::after {
   box-sizing: border-box;
 }
-
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
 
 /*顏色*/
 :root{
@@ -90,6 +94,7 @@
   max-width: 856px;
   margin: 0 auto;
   margin-bottom: 24px;
+  
 }
 .row{
     display: flex;
@@ -226,16 +231,20 @@ footer {
   .nav {
     width: 100%;
     margin: 0 auto;
+    padding: 0 12px;
+  }
+  .menu {
+    width: 100%;
   }
   .link{
 
     display: none;
   }
   .header{
-    padding: 87px 0;
+    padding: 87px 12px;
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true");
     max-width: 100%;
-  height: auto;
+  max-width: 100%;
   vertical-align: middle;
   }
 .h3-rwd1{
@@ -246,11 +255,16 @@ footer {
     font-size: 16px;}
   .container{
      width: 100%;
+     max-width: 100%;
      margin: 0 auto;
+     padding: 0 12px; 
+  box-sizing: border-box; 
   }
   .img2{
+    width: 100% !important;
     max-width: 100%;
   height: auto;
+  margin: 0 !important;;
   vertical-align: middle;
   }
 
@@ -263,9 +277,7 @@ footer {
   .py-24-rwd{
     padding: 24px;
    }
-   .my-12-rwd{
-    margin: 0 12px;
-   }
+  
    .mb-32-rwd{
     margin-bottom: 32px;
 }
@@ -299,6 +311,7 @@ footer {
 }
 
 .d-block{
-  display: block;
+  flex-direction: column;
 }
+
 }
