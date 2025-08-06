@@ -2,11 +2,7 @@
 *::after {
   box-sizing: border-box;
 }
-html, body {
-  overflow-x: hidden;
-  width: 100%;
-  max-width: 100%;
-}
+
 
 /*顏色*/
 :root{
@@ -65,7 +61,7 @@ html, body {
 }
 .bol {
   background-color: #f5fee7;
-  width: 856px;
+  max-width: 856px;
   height: 180px;
   margin-top: 64px;
   margin-bottom: 48px;
@@ -119,7 +115,7 @@ html, body {
     margin-left: auto;
 }
 .img2 {
-  width: 1076px;
+  max-width: 1076px;
   margin: 0 -110px;
 }
 .d-flex{
@@ -146,7 +142,7 @@ h1,
 h2,
 h3,
 h4 {
-  width: 856px;
+  max-width: 856px;
   height: 29px;
   font-weight: 700;
   font-size: 32px;
@@ -227,15 +223,20 @@ footer {
 }
 
 @media(max-width: 768px){
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
   .nav {
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 12px;
   }
   .menu {
-    width: 100%;
+    max-width: 100%;
   }
+  
   .link{
 
     display: none;
@@ -258,22 +259,19 @@ footer {
      max-width: 100%;
      margin: 0 auto;
      padding: 0 12px; 
-  box-sizing: border-box; 
+  
   }
   .img2{
-    width: 100% !important;
+    width: 100% ;
     max-width: 100%;
   height: auto;
-  margin: 0 !important;;
+  margin: 0 ;
   vertical-align: middle;
   }
 
-  /* .rwd{
-     width: 100%;
-     height: auto;
-    margin: 32px 12px;
-    margin: 0 12px;
-  } */
+.my-12-rwd{
+  margin: 0 12px;
+}
   .py-24-rwd{
     padding: 24px;
    }
@@ -281,30 +279,30 @@ footer {
    .mb-32-rwd{
     margin-bottom: 32px;
 }
-.row{
+.row-rwd{
     display: flex;
     
     margin-right: -6px;
     margin-left: -6px;
 }
     
-.col{
+.col-rwd{
     padding-left:6px;
     padding-right: 6px;
     width:calc(100%/4);
 }
-.col-2{
+.col-2-rwd{
     padding-left:6px;
     padding-right: 6px;
     width:calc(100%/4*2);
     
 }
-.col-3{
+.col-3-rwd{
    padding-left:6px;
     padding-right: 6px;
     width:calc(100%/4*3);
 }
-.col-4{
+.col-4-rwd{
   padding-left:6px;
     padding-right: 6px;
     width:calc(100%/4*4);
@@ -314,4 +312,31 @@ footer {
   flex-direction: column;
 }
 
+}
+
+
+@media(max-width: 576px){
+  *::before,
+*::after {
+  box-sizing: border-box;
+}
+ .container{
+     width: 100%;
+     max-width: 100%;
+     margin: 0 auto;
+     padding: 0 12px; 
+
+    .h5-rwd{
+      font-size: 20px;}
+   .pr-16-s{
+      padding-right: 16px;
+    }
+  .pt-12-s{
+      padding-top: 24px;
+    }
+    .btn1{
+     
+      padding:8px 16px;
+  
+  }
 }

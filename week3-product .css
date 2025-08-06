@@ -2,7 +2,7 @@
 
 
 .container {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
  
 }
@@ -22,7 +22,7 @@
     color: var(--Primary-400);
 }
 .del-price{
-    ont-family: Noto Sans TC;
+    font-family: Noto Sans TC;
     font-weight: 400;
     font-size:14px;
     line-height: 1.5;
@@ -108,8 +108,16 @@ h3{
 
 
 @media(max-width: 768px){
+     
+    
+    .nav {
+    max-width: 100%;
+    margin: 0 auto;
+    
+  }
+    
     .container{
-     width: 100%;
+     max-width: 100%;
      margin: 0 auto;
     padding: 0 12px;
     }
@@ -119,18 +127,30 @@ h3{
     display: none;
 
 }
+.logo{
+    max-height: 48px;
+    
+}
 
+.mb-40-m{
+    margin-bottom: 40px;
+}
 .mb-24-m{
     margin-bottom: 24px;
   }
+.pt-24-m{
+    padding-top: 24px;
+}
 .py-13-m{
     padding: 13px 0;
   }
-
+.py-12-m{
+    padding: 0 12px;
+}
 
 .row-rwd{
     display: flex;
-    
+    flex-direction: column;
     margin-right: -6px;
     margin-left: -6px;
    }   
@@ -166,4 +186,34 @@ h3{
     font-size: 20px;}
 .h6-rwd{
     font-size: 16px;}
+.slash+.slash::before{
+        padding:  0 8px;
 }
+.brand-link-rwd{
+  font-size: 14px;  
+}
+.btn-rwd{
+    font-size: 16px;
+    
+}
+}
+
+
+@media(max-width: 576px){
+
+    .h5-rwd{
+      font-size: 20px;}
+   .pr-16-s{
+      padding-right: 16px;
+    }
+  .pt-12-s{
+      padding-top: 24px;
+    }
+    .btn1{
+     
+      padding:8px 16px;
+  
+  }
+}
+
+
