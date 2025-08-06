@@ -320,23 +320,23 @@ footer {
 *::after {
   box-sizing: border-box;
 }
- .container{
-     width: 100%;
-     max-width: 100%;
-     margin: 0 auto;
-     padding: 0 12px; 
-
-    .h5-rwd{
-      font-size: 20px;}
-   .pr-16-s{
-      padding-right: 16px;
-    }
-  .pt-12-s{
-      padding-top: 24px;
-    }
-    .btn1{
-     
-      padding:8px 16px;
-  
+  .container{
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 12px; 
   }
+     .h5-rwd{
+       font-size: 20px;}
+    .pr-16-s{
+       padding-right: 16px;
+     }
+   .pt-12-s{
+       padding-top: 24px;
+     }
+     .btn1{
+      
+       padding:8px 16px;
+   
+   }
 }
