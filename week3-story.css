@@ -182,9 +182,8 @@ h1 {
   font-size: 16px;
   line-height: 1.5;
 }
-.span {
-  margin-right: 10px;
-}
+
+
 .span1 {
   border-left: 1px solid black;
   padding-left: 8px;
@@ -193,6 +192,7 @@ h1 {
   margin-bottom: 12px;
 }
 .span2 {
+
   border-left: 3px solid lightgray;
 
   margin-bottom: 12px;
@@ -221,6 +221,10 @@ footer {
   color: #6c757d;
   padding: 64px 0;
 }
+.menu1{
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 24px;
+}
 
 @media(max-width: 768px){
 *::before,
@@ -233,9 +237,7 @@ footer {
     margin: 0 auto;
     padding: 0 12px;
   }
-  .menu {
-    max-width: 100%;
-  }
+ 
   
   .link{
 
@@ -268,6 +270,15 @@ footer {
   margin: 0 ;
   vertical-align: middle;
   }
+  .mb-24-m{
+    margin-bottom: 24px;
+  }
+    .mt-32-m{
+    margin-top: 32px;
+  }
+    .my-8-m{
+    margin-bottom: 8px;
+  }
 
 .my-12-rwd{
   margin: 0 12px;
@@ -279,38 +290,19 @@ footer {
    .mb-32-rwd{
     margin-bottom: 32px;
 }
-.row-rwd{
-    display: flex;
-    
-    margin-right: -6px;
-    margin-left: -6px;
-}
-    
-.col-rwd{
-    padding-left:6px;
-    padding-right: 6px;
-    width:calc(100%/4);
-}
-.col-2-rwd{
-    padding-left:6px;
-    padding-right: 6px;
-    width:calc(100%/4*2);
-    
-}
-.col-3-rwd{
-   padding-left:6px;
-    padding-right: 6px;
-    width:calc(100%/4*3);
-}
-.col-4-rwd{
-  padding-left:6px;
-    padding-right: 6px;
-    width:calc(100%/4*4);
-}
+  .py-12-m{
+    padding: 0 12px;
+  }
 
-.d-block{
-  flex-direction: column;
-}
+
+
+
+.menu1-rwd{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}  
+
 
 }
 
@@ -339,4 +331,6 @@ footer {
        padding:8px 16px;
    
    }
+
+
 }
