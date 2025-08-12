@@ -127,6 +127,10 @@ h3{
 
     display: none;
   }
+  .d-flex-col{
+    display: flex;
+    flex-direction: column;
+  }
     .mb-32-m{
     margin-bottom: 32px;
   }
@@ -253,10 +257,5 @@ h3{
       padding:8px 16px;
   
   }
-  .row-rwd{
-    display: flex;
-     flex-wrap: wrap;
-    margin-right: -6px;
-    margin-left: -6px;
-   } 
+
 }
